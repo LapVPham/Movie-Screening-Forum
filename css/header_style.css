@@ -1,0 +1,180 @@
+/* This style should be applied to all pages that have the navigation bar in their header.
+   All of these pages have some common elements that should all be styled the same way. */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  width: 1450px;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+/* image of the site logo in top left corner */
+#logo {
+  float: left;
+  width: 125px;
+  height:125px;
+}
+
+/* div containing the site title and navbar */
+.header {
+  padding-top: 45px;
+  padding-left: 150px;
+}
+
+/* applies to site title */
+.header h1 {
+  font-size: 300%;
+  display: inline;
+}
+
+/* search bar in top right corner */
+.searchBar {
+  height: 25px;
+  width: 200px;
+  margin-left: 15px;
+}
+
+/* span containing the navigation buttons, search bar, and logout button */
+#toolbar {
+  float: right;
+  padding-top: 10px;
+}
+
+/* box containing site logo, title, and toolbar */
+header {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+/* buttons to navigate to other pages found in the toolbar */
+.navButton {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 140%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navButton:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+/* button used for search bars on multiple pages */
+.searchButton {
+  background-color: #639fff; /* light blue */
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  font-size: 82%;
+}
+
+.searchButton:hover {
+  background-color: #2466d1;
+}
+
+/* holds logout button in top right corner of toolbar */
+#logoutForm {
+    display: inline;
+    margin-left: 20px;
+}
+
+#logoutBtn {
+    background-color: #dd3545; /* muted red */
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    font-size: 82%;
+}
+
+#logoutBtn:hover {
+    background-color: #c82433;
+}
+
+/* form that holds search bar and search button */
+.searchForm {
+    display: inline;
+}
+
+/* applies to red buttons on several diffent pages */
+.redButton {
+    background-color: #dd3545; /* muted red */
+    border: none;
+    color: white;
+    padding: 8px 8px;
+}
+
+.redButton:hover {
+    background-color: #c82433; /* darkish red */
+}
+
+/* the form containing the 'X' button that clears search results */
+#clearSearchForm {
+    display: inline;
+}
+
+.greenButton {
+    background-color: #28a745; /* darkish green */
+}
+
+.greenButton:hover {
+    background-color: #218838; /* a darker green */
+}
+
+.blueButton {
+    background-color: #639fff; /* light blue */
+}
+
+.blueButton:hover {
+    background-color: #2466d1; /* a darker blue */
+}
+
+.whiteButton {
+    background-color: #f5f5f5;  /* very close to white */
+    color: #639fff !important;  /* light blue text */
+}
+
+.whiteButton:hover {
+    background-color: #d9d9d9; /* closer to grey */
+}
+
+/* the 'X' button that clears search results */
+.closeBtn {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.closeBtn:hover {
+    background-color: #2e2e2e; /* grey */
+}
+
+/* styling for the main tag of index.php */
+#welcomeBody {
+    clear: both;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* applies to most hyperlinks on the site */
+.blueLink {
+    color: #639fff; /* bright light blue */
+}
+
+.blueLink:hover {
+    color: white;
+}

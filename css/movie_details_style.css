@@ -1,0 +1,173 @@
+/* This style applies to movie_details.php, which contains the information of
+   whichever movie the user selected. */
+
+/* div containing the movie's poster, synopsis, details, review score, and add to queue/history buttons */
+#movieContent {
+  clear: both;
+  margin-top: 60px;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 500px;
+}
+
+#poster {
+  width: 300px;
+  height: 450px;
+  display: block;
+  float: left;
+}
+
+/* div containing the movie's information to the right of the poster */
+#movieDetails {
+  padding-left: 325px;
+}
+
+/* div holding the form for the user to write a review */
+#writeReviewDiv {
+  clear: both;
+  margin-top: 40px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* the textarea for the review form */
+#reviewTextArea {
+  resize: none;
+  width: 100%;
+}
+
+/* the span holding the update, post, cancel, and delete buttons under the review form */
+.reviewBtnSpan {
+    float: right;
+
+}
+
+/* applies to all of the buttons for the review form */
+.reviewBtn {
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    margin-left: 10px;
+    font-size: 82%;
+}
+
+/* div containing the list of all user reviews for a movie */
+#userReviewsDiv {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 40px;
+}
+
+/* div containing a single user review */
+.userReview {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+/* the score listed in a user's review is floated to the right */
+.userReview .score {
+  float: right;
+}
+
+/* the date listed in a user's review is aligned to the right */
+.userReview .date {
+    text-align: right;
+    margin-block-end: 0em;
+}
+
+/* applies to the add/remove from queue/watch history buttons*/
+#buttonContainer input {
+  font-size: 105%;
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  width: 40%;
+  height: 45px;
+}
+
+/* set the color of buttons */
+.blueButton {
+    background-color: #639fff;
+}
+
+.blueButton:hover {
+    background-color: #2466d1;
+}
+
+.redButton {
+    background-color: #dd3545;
+}
+
+.redButton:hover {
+    background-color: #c82433;
+}
+
+/* set the positioning of the queue and watch history buttons */
+#queueBtn {
+  margin-right: 3%;
+}
+
+#addToWatchHistoryBtn {
+  margin-left: 3%;
+}
+
+#buttonContainer {
+    margin-top: 1.5em;
+}
+
+#buttonContainer form {
+    display: inline;
+}
+
+/* style the paragraph that says that this movie has no reviews yet */
+#noReviews {
+    font-size: 125%;
+    color: #9e9e9e;
+    text-align: center;
+}
+
+/* textarea of the review form */
+textarea {
+    font-family: Arial;
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+
+/* class to hide certain elements, like the review form if the user has already left a review */
+.displayNone {
+    display: none;
+}
+
+#synopsis {
+    height: 13em;
+}
+
+#scoreDiv {
+    float: right;
+    margin-right: 247px;
+}
+
+#score {
+    font-size: 170%;
+}
+
+/* applies to the usernames in the top left corner of each review that links to that user's profile */
+.reviewLink {
+    color: white;
+    text-decoration: none;
+}
+
+.reviewLink:hover {
+    text-decoration: underline;
+}
+
+/* style for the red error box that appears when validating a user's review input */
+.invalidReview {
+    background-color: #f8d7da;
+    color: #721c23;
+    padding: 15px;
+    border-radius: 12px;
+}

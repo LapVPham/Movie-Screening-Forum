@@ -1,0 +1,65 @@
+/* This style applies to users.php, which holds the table of existing users used to navigate to their profiles */
+
+main {
+    clear: both;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 60px;
+}
+
+/* table holding the usernames of all users */
+.usersTable {
+    width: 100%;
+    text-align: left;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-collapse: collapse;
+    font-size: 110%;
+}
+
+th, td {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+/* all usernames are a blue hyperlink */
+.userLink {
+    color: #639fff;
+}
+
+.userLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#usersH2 {
+    display: inline;
+}
+
+.usersHeader {
+    margin-bottom: 20px;
+}
+
+/* form holding the search bar and button to search for users */
+#usersSearchForm {
+    margin-left: 21.9%;
+}
+
+/* the 'X' button that clears the results of a search */
+.smallCloseBtn {
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 115%;
+    margin-right: 10px;
+
+}
+
+.smallCloseBtn:hover {
+    background-color: #2e2e2e;
+}

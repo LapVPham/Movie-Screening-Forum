@@ -1,0 +1,70 @@
+/* This style is applied to the login.php and register.php pages */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+/* login/registration forms are centered */
+#formContainer {
+  margin: auto;
+  width: 240px;
+}
+
+/* applies to the site logo/title image */
+img {
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  width: 470px;
+}
+
+h1 {
+  padding-top: 30px;
+}
+
+footer {
+  margin-top: 300px;
+}
+
+#bottomOfPage {
+  margin: auto;
+  width: 150px;
+}
+
+a:link, a:visited {
+  color: #639fff;
+  font-size: 86%;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* style for the red paragraph box that pops up when user fails log in or registration */
+.invalidLogin {
+    background-color: #f8d7da;
+    color: #721c23;
+    margin: auto;
+    width: 450px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* blue login and registration buttons */
+.loginBtn {
+    background-color: #639fff; /* light blue */
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    font-size: 82%;
+}
+
+.loginBtn:hover {
+    background-color: #2466d1;
+}

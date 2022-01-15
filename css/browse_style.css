@@ -1,0 +1,58 @@
+/* div holding the header of the Browse Movies grid */
+.grid-header {
+  clear: both;
+  margin-top: 60px;
+  margin-left: 14.1%;
+  margin-right: 14%;
+}
+
+.grid-header h2 {
+  display: inline;
+}
+
+/* holds the genre drop down menu */
+#filterDiv {
+  float: right;
+}
+
+/* the grid displaying the queried movies */
+.grid-container {
+  clear: left;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  margin-top: 20px;
+  justify-content: center;
+  grid-gap: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* the box holding the poster and title of one movie on the grid */
+.grid-item {
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 10px;
+}
+
+/* movie poster displayed in grid */
+.poster {
+  width: 180px;
+  height: 270px;
+}
+
+/* div below each poster holding the movie title */
+.title {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* movie title links */
+a {
+  color: #639fff; /* bright light blue */
+}
+
+a:hover {
+  color: white;
+}

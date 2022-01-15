@@ -1,0 +1,142 @@
+/* This style applies to the profile.php and user.php files that show the profiles of the logged in user
+   or of any other user respectively. */
+
+/* div holding the favorite movie/favorite genre */
+.profileDetailsDiv {
+  clear: both;
+  margin-left: 13%;
+  margin-top: 60px;
+}
+
+/* button to submit changes to favorite movie/genre */
+#profileSubmitBtn {
+  background-color: #639fff;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin-left: 12px;
+  font-size: 82%;
+}
+
+#profileSubmitBtn:hover {
+  background-color: #2466d1;
+}
+
+/* div containing the user's queue */
+.queueDiv {
+  margin-top: 30px;
+}
+
+/* table holding the user's queued movies */
+.profileTable {
+    margin: auto;
+    width: 74%;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+/* styling for queue and history table elements */
+th, td {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+/* the widths of the table columns are below */
+.posterCol{
+  width: 14%;
+}
+
+.titleCol {
+  width: 36%;
+}
+
+.genreCol {
+  width: 16%;
+}
+
+.dateCol {
+    width: 16%;
+}
+
+.manageCol {
+  width: 18%;
+}
+
+.scoreCol {
+    width: 9%;
+}
+
+/* use different widths for the history table */
+.genreColH {
+    width: 11%;
+}
+
+.dateColH {
+    width: 11%;
+}
+
+/* size of the movie poster in each table row */
+.posterThumbnail {
+  width: 100px;
+  height: 150px;
+}
+
+h2 {
+  width: 74%;
+  margin: 10px auto;
+}
+
+/* header for the favorites section */
+.favoritesH2 {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+td {
+  font-size: 150%;
+}
+
+.historyDiv {
+  margin-top: 40px;
+}
+
+/* applies to all movie titles in the tables */
+.movieTitleLink {
+  color: #639fff;
+}
+
+.movieTitleLink:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* applies to buttons in the Manage Item columns of both tables */
+.manageProfileBtn {
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    width: 88%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 56%;
+}
+
+/* UQ stands for "user queue" */
+.posterColUQ {
+    width: 15%;
+}
+
+.titleColUQ {
+    width: 45%;
+}
+
+/* UH stands for "user history" */
+.titleColUH {
+    width: 45%;
+}
